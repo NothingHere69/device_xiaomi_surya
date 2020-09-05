@@ -42,6 +42,8 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    'vendor/etc/libnfc-nci.conf': blob_fixup()
+        .regex_replace('/data/nfc', '/data/vendor/nfc'),
     'vendor/lib64/android.hardware.camera.provider@2.4-legacy.so': blob_fixup()
         .add_needed('libcamera_provider_shim.so'),
     'vendor/etc/init/init.batterysecret.rc': blob_fixup()
