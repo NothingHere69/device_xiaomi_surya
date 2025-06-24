@@ -3,3 +3,6 @@ ro.config.low_ram=false
 
 # eBPF
 ro.bpf.kver_override=5.4.299
+
+# Phantom process monitoring
+sys.fflag.override.settings_enable_monitor_phantom_procs=false
