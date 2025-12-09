@@ -1,3 +1,9 @@
+## Maintainer
+Nothing Here (@NothingHere6969)
+
+## Credits
+Original tree by shoya0x00
+
 Copyright (C) 2020-2023 The LineageOS Project
 
 Device configuration for POCO X3/POCO X3 NFC
