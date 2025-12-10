@@ -454,3 +454,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     firmware_wlan_mac.bin_symlink \
     firmware_WCNSS_qcom_cfg.ini_symlink
+
+#Gcam
+$(call inherit-product-if-exists, vendor/gcpop/config.mk)
+
