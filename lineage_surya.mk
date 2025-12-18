@@ -16,16 +16,14 @@ $(call inherit-product, device/xiaomi/surya/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
-# crDroid build flag
-TARGET_ENABLE_BLUR := true
-TARGET_EXCLUDES_AUDIOFX := true
-
+# Axion build flag
 TARGET_DISABLE_EPPE := true
 TARGET_ENABLE_BLUR := true
 AXION_CAMERA_REAR_INFO := 64,13,2,2
 AXION_CAMERA_FRONT_INFO := 20
 AXION_MAINTAINER := Nothing_Here
 AXION_PROCESSOR := Snapdragon_732G
+
 # Charging
 BYPASS_CHARGE_SUPPORTED ?= true
 
