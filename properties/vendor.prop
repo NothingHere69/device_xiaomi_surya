@@ -196,7 +196,7 @@ persist.sys.sf.native_mode=2
 persist.sys.sf.color_mode=9
 
 # GFX
-ro.config.avoid_gfx_accel=true
+ro.config.avoid_gfx_accel=false
 
 # Fingerprint
 persist.vendor.fingerprint.type=side
