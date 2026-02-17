@@ -20,21 +20,23 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 TARGET_INCLUDES_LOS_PREBUILTS := true
 LINEAGE_VERSION_APPEND_TIME_OF_DAY := true
 
-# Axion build flags
+# Build flags
 TARGET_DISABLE_EPPE := true
-AXION_CAMERA_REAR_INFO := 64,13,2,2
-AXION_CAMERA_FRONT_INFO := 20
-AXION_MAINTAINER := Nothing_Here
-AXION_PROCESSOR := Qualcomm®_Snapdragon™_732G
 TARGET_ENABLE_BLUR := true
 TARGET_EXCLUDES_AUDIOFX := true
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# LunarisAOSP Flags
+LUNARIS_BUILD_TYPE := OFFICIAL
+WITH_GMS := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
+WITH_BCR := true
 
 # Flashlight strength
 TORCH_STR_SUPPORTED := true
 
 # Charging
 BYPASS_CHARGE_SUPPORTED ?= true
-BYPASS_CHARGE_TOGGLE_PATH ?= /sys/class/power_supply/battery/input_suspend
 
 PRODUCT_NAME := lineage_surya
 PRODUCT_DEVICE := surya
