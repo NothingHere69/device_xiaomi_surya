@@ -115,7 +115,6 @@ vendor.qcom.bluetooth.soc=cherokee
 camera.disable_zsl_mode=1
 persist.vendor.camera.logInfoMask=false
 persist.vendor.camera.perflock.enable=0
-persist.vendor.camera.logInfoMask=false
 persist.vendor.qti.telephony.vt_cam_interface=1
 
 # Chipset
