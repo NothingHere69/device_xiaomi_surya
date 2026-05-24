@@ -530,4 +530,8 @@
     <!-- Whether WM DisplayContent supports high performance transitions
          (lower-end devices may want to disable) -->
     <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
+
+    <!-- Switch to AVC 3.1 for screen recording. -->
+    <string name="config_screenRecorderAVCProfileLevel" translatable="false">3.1</string>
+
 </resources>
