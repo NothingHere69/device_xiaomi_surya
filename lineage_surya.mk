@@ -30,7 +30,7 @@ TARGET_DISABLE_MATLOG := true
 # LunarisAOSP Flags
 LUNARIS_BUILD_TYPE := OFFICIAL
 WITH_GMS := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := false
+WITH_PIXEL_LAUNCHER := false
 WITH_BCR := true
 
 # Flashlight strength

@@ -405,7 +405,7 @@ PRODUCT_COPY_FILES += \
 
 # Maintainer Flag
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    ro.lunaris.maintainer=Nothing Here
+    ro.lunaris.maintainer=Nothing‎ Here
 
 # Touchscreen
 PRODUCT_COPY_FILES += \
